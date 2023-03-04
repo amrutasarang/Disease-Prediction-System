@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "Diabetes",
+      "patterns": [
+        "What is diabetes?",
+        "Tell me about diabetes"
+      ],
+      "responses": [
+        "Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produce. The most common types of diabetes are type 1, type 2, and gestational diabetes."
+      ]
+    },
+    {
+      "tag": "diabetesdetect",
+      "patterns": [
+        "How is diabetes detected?",
+        "What values are considered while dectecting diabetes?",
+        "How is diabetes tested?",
+        "Awhat are the attributes of testing diabetes?"
+      ],
+      "responses": [
+        "The diagnosis is based on measurement of A1C level, fasting or random blood glucose level, or oral glucose tolerance testing. Pregnancy, Glucose, Blood Pressure, Skin thickness, Insulin, BMI, Diabetes Pedigree Function & Age are considered while testing diabetes."
+      ]
+    },
+    {
+      "tag": "heart",
+      "patterns": [
+        "What factors can lead to heart disease?",
+        "What are the causes of heart disease?",
+        "What are the reasons for heart disease?"
+      ],
+      "responses": [
+        "These risk factors include: Predisposed conditions at birth that may lead to stroke or heart disease, Poor diet, Smoking, Low physical activity"
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "What are the different treatment methods for heart disease?",
+        "How can heart disease be treated?",
+        "What are various measures to be taken for heart disease?"
+      ],
+      "responses": [
+        "Treatments include: Angioplasty, Bypass surgery"
+      ]
+    }
+  ]
+}
